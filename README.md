@@ -7,7 +7,7 @@ A: If a naked twin exists (i.e. two boxes in the same unit with the same two rem
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
-A: In a diagonal sudoku, the two diagonals introduce two new units to the problems. Similar to the row, column, and square units, the diagonal units cannot have repeating numbers as well. Therefore, the various strategies such as the elimination strategy, only choice strategy, and naked twin strategy have to be applied to the diagonals as well, which further limit the search space at each iteration.
+A: In a diagonal sudoku, the two diagonals introduce two new units to the problems. Similar to the row, column, and square units, the diagonal units cannot have repeating numbers. Therefore, the various strategies such as the elimination strategy, only choice strategy, and naked twin strategy have to be applied to the diagonals as well, which further limit the search space at each iteration.
 
 ### Install
 
